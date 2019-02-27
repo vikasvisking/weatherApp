@@ -24,7 +24,4 @@ urlpatterns = [
 # format of get request should be:-http://localhost:8000?startDate=1910-02&lastDate=2000-02&metric=Rainfall&location=England
 
     path('' ,views.getWeather, name = 'weather'),
-
-    # to create objects from the url given
-    path('storeWeatherData/', views.storeWeatherData, name = 'storeWeatherData')
 ]
