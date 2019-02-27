@@ -1,7 +1,8 @@
+
 # WeatherApp
 It is a simple Django Rest Framework project where user can fetch data from a particular url, save it to the designed models. Also u can view the data saved in json format.
 
-#Installation
+# Installation
 
 (these steps are for ubuntu)
 
@@ -19,7 +20,7 @@ It is a simple Django Rest Framework project where user can fetch data from a pa
 
 the application has been successfully deployed on the local.
 
-#Use
+# Use
 
 * TO store data in database
 1) run :-  ~$ python manage.py storedata
@@ -33,3 +34,4 @@ the application has been successfully deployed on the local.
 2) startDate and endDate should be in the following format: 1910-02 (no need to provide date)
 3)Value of location should be one out of these:  'UK', 'England', 'Scotland', 'Wales'
 4)Value of metric should be one out of these: 'Tmax' , 'Tmin', 'Rainfall' 
+
