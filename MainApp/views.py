@@ -4,7 +4,6 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from datetime import datetime
 
-
 #Task 3  Get request to show weaather details.
 # format of url with parameters should be :- http://localhost:8000?startDate=1910-02&lastDate=2000-02&metric=Rainfall&location=England
 @api_view(['GET'])
@@ -36,4 +35,3 @@ def getWeather(request):
 		dictV['code'] = 404
 		dictV['message'] = 'objects not found'
 	return Response(dictV)
-
