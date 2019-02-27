@@ -7,15 +7,25 @@ It is a simple Django Rest Framework project where user can fetch data from a pa
 (these steps are for ubuntu)
 
 1)Install Python3 or cheak ur python version by :-  $ python3 --version.
+
 2)Install pip or upgrade it to latest version by :- ~$ python3 -m pip3 install --upgrade pip
+
 3)install virtual enviroment  : ~$ sudo pip install virtualenv
+
 4)Create virtual enviroment by:- ~$ virtualenv myprojectenv
+
 5)Activate the virtual enviroment:- ~$ source myprojectenv/bin/activate
+
 6)clone the respository by command:- git clone https://github.com/vikasvisking/weatherApp.git
+
 7)move inside the cloned folder i.e weatherApp by:- cd weatherApp
+
 8)install requirements:- pip3 install -r requirements.txt
+
 9)create migration by running the following command: ~$ python3 manage.py makemigrations
+
 10)run : ~$ python3 manage.py migrate
+
 11)un development server : ~$ python manage.py runserver
 
 the application has been successfully deployed on the local.
