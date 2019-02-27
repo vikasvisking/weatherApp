@@ -15,7 +15,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from MainApp import views  
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+#-------------- For Get request to  deleiver data.------------------#
+# format of get request should be:-http://localhost:8000?startDate=1910-02&lastDate=2000-02&metric=Rainfall&location=England
+
+    path('' ,views.getWeather, name = 'weather'),
+
+    # to create objects from the url given
+    path('storeWeatherData/', views.storeWeatherData, name = 'storeWeatherData')
 ]
