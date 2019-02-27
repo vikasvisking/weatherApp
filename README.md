@@ -36,12 +36,15 @@ the application has been successfully deployed on the local.
 1) run :-  ~$ python manage.py storedata
 
 * To implement Http Get request,
+
 1)the get request accepts 4 parameters i.e startDate, lastDate, metric, location.
   so the format of the url request should be like this:
 
   http://localhost:8000?startDate=1910-02&lastDate=2000-02&metric=Rainfall&location=England
 
 2) startDate and endDate should be in the following format: 1910-02 (no need to provide date)
+
 3)Value of location should be one out of these:  'UK', 'England', 'Scotland', 'Wales'
+
 4)Value of metric should be one out of these: 'Tmax' , 'Tmin', 'Rainfall' 
 
